@@ -1,0 +1,7 @@
+let imgUrl = 'public/starsbackground.jpg'
+let styles = {
+    root: {
+        backgroundImage: 'url(' + imgUrl + ')'
+        backgroundSize: 'cover',
+        overflow: 'hidden',
+    }
