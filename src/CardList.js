@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = ({ films }) => {
+const FilmList = ({ films }) => {
   return (
     <div>
       {
@@ -20,4 +20,4 @@ const CardList = ({ films }) => {
  );
 }
 
-export default CardList;
+export default FilmList;

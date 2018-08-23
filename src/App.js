@@ -19,6 +19,7 @@ class App extends Component {
     .then(users => this.setState({ films: users.results }));
   }
 
+
   onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
   }
